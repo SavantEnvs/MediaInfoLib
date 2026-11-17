@@ -1,0 +1,21 @@
+# <target name> <what it fuzzes: File_ForceParser value | auto | openfile> (build.sh links one binary per name; the harness maps the name)
+mediainfo_auto auto
+mediainfo_openfile openfile
+mediainfo_mpeg4 Mpeg4
+mediainfo_mpegts MpegTs
+mediainfo_mxf Mxf
+mediainfo_mk Mk
+mediainfo_riff Riff
+mediainfo_mpegps MpegPs
+mediainfo_avc Avc
+mediainfo_hevc Hevc
+mediainfo_adts Adts
+mediainfo_ac3 Ac3
+mediainfo_jpeg Jpeg
+mediainfo_png Png
+mediainfo_tiff Tiff
+mediainfo_ttml TTML
+mediainfo_aaf Aaf
+mediainfo_teletext Teletext
+mediainfo_adm Adm
+mediainfo_ac4 Ac4

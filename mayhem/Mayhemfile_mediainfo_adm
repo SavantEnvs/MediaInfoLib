@@ -1,0 +1,6 @@
+project: savantenvs/MediaInfoLib
+target: mediainfo_adm
+cmds:
+  - cmd: /mayhem/mediainfo_adm
+    libfuzzer: true
+    timeout: 10

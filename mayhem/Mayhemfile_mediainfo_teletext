@@ -1,0 +1,6 @@
+project: savantenvs/MediaInfoLib
+target: mediainfo_teletext
+cmds:
+  - cmd: /mayhem/mediainfo_teletext
+    libfuzzer: true
+    timeout: 10

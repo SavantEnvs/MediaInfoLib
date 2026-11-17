@@ -1,0 +1,6 @@
+project: savantenvs/MediaInfoLib
+target: mediainfo_mpegps
+cmds:
+  - cmd: /mayhem/mediainfo_mpegps
+    libfuzzer: true
+    timeout: 10

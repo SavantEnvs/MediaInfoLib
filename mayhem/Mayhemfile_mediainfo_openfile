@@ -1,0 +1,9 @@
+project: savantenvs/MediaInfoLib
+target: mediainfo_openfile
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mediainfo_openfile/testsuite
+cmds:
+  - cmd: /mayhem/mediainfo_openfile
+    libfuzzer: true
+    timeout: 10

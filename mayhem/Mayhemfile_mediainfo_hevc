@@ -1,0 +1,6 @@
+project: savantenvs/MediaInfoLib
+target: mediainfo_hevc
+cmds:
+  - cmd: /mayhem/mediainfo_hevc
+    libfuzzer: true
+    timeout: 10
